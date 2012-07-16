@@ -2,7 +2,7 @@
 
 A WebGL maze game built with Three.js and Box2dWeb.
 
-# Launching
+### Launching
 
 There are several ways to launch the game. Here is the simplest:
 
