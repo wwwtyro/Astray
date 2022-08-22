@@ -1,7 +1,14 @@
 <html>
 
     <head>
-    
+        <script>
+            const url = window.location.split(':');
+            if (url[0] == "http") {
+                window.location = "https:" + url[1];
+            } else {
+                window.location = window.location;
+            }
+        </script>
         <script src='Box2dWeb.min.js'></script>
         <script src="Three.js"></script>
         <script src="keyboard.js"></script>
